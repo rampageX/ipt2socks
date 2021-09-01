@@ -289,8 +289,8 @@ static void parse_command_args(int argc, char* argv[]) {
                 break;
             case 'R':
                 g_options |= OPT_TCP_USE_REDIRECT;
-                strcpy(g_bind_ipstr4, IP4STR_WILDCARD);
-                strcpy(g_bind_ipstr6, IP6STR_WILDCARD);
+                //strcpy(g_bind_ipstr4, IP4STR_WILDCARD);
+                //strcpy(g_bind_ipstr6, IP6STR_WILDCARD);
                 break;
             case 'r':
                 g_options |= OPT_ALWAYS_REUSE_PORT;
